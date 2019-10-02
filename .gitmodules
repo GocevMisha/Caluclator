@@ -1,0 +1,6 @@
+[submodule "TShopDriver"]
+	path = TShopDriver
+	url = https://github.com/GocevMisha/TShopDriver.git
+[submodule "TShop"]
+	path = TShop
+	url = https://github.com/GocevMisha/TShop.git
