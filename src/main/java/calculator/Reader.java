@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Reader {
 
     private Scanner scanner;
-    private final List<Character> operations = Arrays.asList('+', '-', '*', '/', '^');
+    private final List<Character> operations = Arrays.asList('+', '-', '*', '/', '^', 'v');
     private final List<String> commands = Arrays.asList("CONT", "NEW", "END");
 
     

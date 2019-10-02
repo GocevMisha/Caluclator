@@ -22,7 +22,8 @@ public class Writer {
                 "For subtraction insert `-`\n" +
                 "For multiplication insert `*`\n" +
                 "For division insert `/`\n" +
-                "For exponentiation insert `^`");
+                "For exponentiation insert `^`\n" +
+                "For radical insert `v` and next operand=0\n");
     }
 
     public void printCommands() {

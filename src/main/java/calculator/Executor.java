@@ -31,6 +31,9 @@ public class Executor {
             case '^': {
                 return getExponentiation(x, y);
             }
+            case 'v': {
+                return getRadical(x);
+            }
         }
         throw new IllegalArgumentException("It's impossible.");
     }
@@ -91,4 +94,12 @@ public class Executor {
         }
         return pow(x, y);
     }
+
+    private static double getRadical(double x){
+        if (x == 0) {
+            throw new DivideByZeroException();
+        }
+        return Math.sqrt(x);
+    }
+
 }

@@ -130,7 +130,7 @@ public class CalculateManager {
             case END: {
                 writer.printGoodbye();
             }
-        }
+         }
     }
 
     private enum Command {
