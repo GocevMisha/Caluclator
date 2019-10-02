@@ -34,6 +34,9 @@ public class Executor {
             case 'v': {
                 return getRadical(x);
             }
+            case 'l':{
+                return getLogarifm(x);
+            }
         }
         throw new IllegalArgumentException("It's impossible.");
     }
@@ -100,6 +103,12 @@ public class Executor {
             throw new DivideByZeroException();
         }
         return Math.sqrt(x);
+    }
+    private static double getLogarifm(double x){
+        if (x == 0) {
+            throw new DivideByZeroException();
+        }
+        return Math.log(x);
     }
 
 }
